@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ku">
+<head>
+<meta charset="UTF-8">
+<title>LaligaNews - DARKAWT</title>
+
+<style>
+/* فۆنتەکان */
+@font-face {
+  font-family: 'RudawBold';
+  src: url('RudawBold.ttf');
+}
+
+@font-face {
+  font-family: 'SarchiaBayan';
+  src: url('SarchiaBayan.ttf');
+}
+
+/* ڕێکخستنی گشتی */
+body{
+  margin:0;
+  background:#0e0e0e;
+  color:white;
+  direction: rtl;
+  font-family: 'SarchiaBayan';
+}
+
+/* سەردێری سەرەکی */
+header{
+  background:#111;
+  padding:20px;
+  text-align:center;
+  font-family: 'RudawBold';
+  font-size:34px;
+}
+
+/* ناڤ */
+.nav{
+  background:#b80000;
+  text-align:center;
+  padding:10px;
+  font-family: 'RudawBold';
+}
+.nav a{
+  color:white;
+  margin:0 12px;
+  text-decoration:none;
+}
+
+/* پۆست */
+.post{
+  background:#1b1b1b;
+  max-width:800px;
+  margin:20px auto;
+  padding:20px;
+  border-radius:10px;
+}
+.post h2{
+  font-family: 'RudawBold';
+  color:#ff4d4d;
+}
+.post img{
+  width:100%;
+  border-radius:10px;
+}
+.post p{
+  font-family: 'SarchiaBayan';
+  font-size:18px;
+  line-height:1.8;
+}
+.date{
+  font-size:14px;
+  color:#aaa;
+  font-family: 'SarchiaBayan';
+}
+
+/* سۆشیاڵ */
+.social{
+  text-align:center;
+  margin:30px 0;
+  font-family: 'RudawBold';
+}
+.social a{
+  color:white;
+  margin:0 10px;
+  text-decoration:none;
+}
+
+/* فووتەر */
+footer{
+  background:#000;
+  text-align:center;
+  padding:15px;
+  font-family: 'SarchiaBayan';
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  LaligaNews - DARKAWT 
+</header>
+
+<div class="nav">
+  <a href="#">هه‌واڵ</a>
+  <a href="#">گواستنەوەکان</a>
+  <a href="#">یارییەکان</a>
+  
+</div>
+
+<!-- پۆستی ڕۆژانە -->
+<div class="post">
+  <h2>ڕیاڵ مەدرید سەربردنێکی گرنگی تۆمار کرد</h2>
+  <p class="date">📅 ئەمڕۆ</p>
+  <img src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d">
+  <p>
+    ڕیاڵ مەدرید لە یاریی ئەمڕۆدا ئەدایەکی زۆر بەهێزی پیشان دا
+    و توانای سەربردن بەدەست بهێنێت. هۆاداران زۆر دڵخۆش بوون
+    بەم ئەنجامە.
+  </p>
+</div>
+
+<div class="post">
+  <h2>هەواڵی نوێی گواستنەوەکان</h2>
+  <p class="date">📅 دوێنێ</p>
+  <img src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6">
+  <p>
+    سەرچاوە نزیکەکان باس لەوە دەکەن کە یاریزانێکی ناوبانگ
+    نزیکە لە گواستنەوە بۆ یانەیەکی گەورە.
+  </p>
+</div>
+
+<div class="social">
+  پەیوەندی:
+  <a href="#">فەیسبووک</a> |
+  <a href="#">ئینستاگرام</a> |
+  
+ 
+</div>
+
+<footer>
+  © ٢٠٢٦ LaligaNews - DARKAWT
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ku">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LaligaNews - DARKAWT</title>
+
+<style>
+body{
+  margin:0;
+  background:#0e0e0e;
+  color:#fff;
+  font-family:"Sarchia Bayan", sans-serif;
+}
+
+/* سەرەوە */
+.header{
+  background:#111;
+  padding:15px;
+  text-align:center;
+  border-bottom:1px solid #222;
+}
+
+.header h1{
+  font-family:"Rudaw Bold", sans-serif;
+  color:#4da3ff;
+  font-size:22px;
+  margin:0;
+}
+
+/* پۆست */
+.post{
+  margin:15px;
+  background:#161616;
+  border-radius:12px;
+  overflow:hidden;
+  box-shadow:0 0 10px rgba(0,0,0,.6);
+}
+
+.post img{
+  width:100%;
+  display:block;
+}
+
+.post-content{
+  padding:12px;
+}
+
+.post-content h2{
+  font-family:"Rudaw Bold", sans-serif;
+  font-size:18px;
+  margin:0 0 8px;
+}
+
+.post-content p{
+  font-size:15px;
+  line-height:1.8;
+  color:#ddd;
+}
+
+.date{
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:6px;
+}
+
+/* مۆبایل تایبەت */
+@media(max-width:600px){
+  .header h1{font-size:20px;}
+  .post-content h2{font-size:17px;}
+  .post-content p{font-size:14px;}
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <h1>LaligaNews - DARKAWT</h1>
+</div>
+
+<div class="post">
+  <img src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d">
+  <div class="post-content">
+    <div class="date">📅 ئەمڕۆ</div>
+    <h2>ڕیاڵ مەدرید سەربردنێکی گرنگی تۆمار کرد</h2>
+    <p>
+      ڕیاڵ مەدرید لە یاریی ئەمڕۆدا بە ئەدایەکی بەهێز
+      سەربردنێکی گرنگی بەدەست هێنا و هۆاداران دڵخۆش بوون.
+    </p>
+  </div>
+</div>
+
+</body>
+</html>
